@@ -17,12 +17,10 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 source /Users/xiangwang/anaconda3/bin/conda
-                conda activate mlip
-                # sudo /PATH/TO/CONDA init
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
-                pytest
+                /Users/xiangwang/anaconda3/bin/conda run -n mlip pytest
                 echo 'pytest runned'
 
                 // echo 'pytest not runned'

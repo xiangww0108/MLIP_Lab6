@@ -17,6 +17,7 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 source /usr/local/anaconda3/bin/activate
+                conda activate mlip
                 # sudo /PATH/TO/CONDA init
 
                 # TODO Complete the command to run pytest
